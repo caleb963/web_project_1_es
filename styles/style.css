@@ -13,8 +13,71 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  width:100vh;
   /* parameters for the header section */
+  .logo{
+    min-height:154px;
+    max-height:31px;
+    display:flex;
+    margin-right:64px;
+    margin-bottom:30px;
+    position:absolute;
+    z-index: auto;
+   }
+
+   .logo_place_header{
+
+   }
+
+  .header__title{
+    width:730px;
+    display:flex;
+    justify-content:center;
+    margin-right:64px;
+    line-height:96px;
+    font-size:102px;
+    font-weight:bold;
+    position:absolute;
+    z-index:auto;
+  }
+  .header__subtitle{
+    width: 388px;
+    position:absolute;
+    z-index:auto;
+    display:flex;
+    margin-right:64px;
+    margin-top:30px;
+    line-height:25px;
+    font-size:18px;
+    font-weight:normal;
+  }
+
+  .header__link{
+
+  }
+
+  .header__main-illustration{
+    height:756px;
+    width:608px;
+    position:absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+
+  .header__square{
+    position:absolute;
+    top: 64px;
+    right:0;
+    height:568px;
+    width:568px;
+    display:flex;
+    margin-top:64px;
+    color:blue;
+  }
+
 }
+
+
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
@@ -28,4 +91,83 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+
+.two-columns{
+  display:block;
+  flex-direction:column;
+  align-content:space-between;
+  justify-content:center;
+  margin-top:100px;
+  margin-bottom:100px;
+}
+
+.brief{
+  width:175px;
+  display:flex;
+  align-content:stretch;
+  line-height: 1.2;
+  font-size:18px;
+  font-weight:normal;
+}
+
+.main-text{
+  width:80%;
+  min-width:784px;
+  display:inline-block;
+}
+
+.paragraph{
+ display:flex;
+ margin-top:30px;
+ margin-bottom:30px;
+ line-height:34px;
+ font-size:24px;
+ font-weight:normal;
+}
+
+.span-accent{
+  line-height:34px;
+  font-size:24px;
+  font-weight:bold;
+}
+
+.section-title{
+  width:60%;
+  display:flex;
+  margin-top:100px;
+  margin-bottom:20px;
+}
+
+.section-subtitle{
+  width:60%;
+  display:flex;
+  margin-bottom:60px;
+}
+
+.table{
+  width:1100px;
+  display:flex;
+  margin-top:60px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:100px;
+
+}
+
+.cell{
+  width:250px;
+  display:flex;
+  margin-bottom:60px;
+}
+
+.heading{
+  display:flex;
+  margin-bottom:20px;
+}
+
+.text{
+  display:flex;
+  margin-bottom:20px;
 }
