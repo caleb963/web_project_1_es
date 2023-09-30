@@ -195,6 +195,7 @@
 
 .feynman{
   height:790px;
+  position:relative;
 }
 
 .feynman__title{
@@ -218,7 +219,6 @@
 }
 
 .feynman__link{
-   display:flex;
    margin-top:50%;
    margin-right:48px;
    position:absolute;
@@ -232,7 +232,6 @@
 
 .feynman__image{
   position:absolute;
-  display:flex;
   margin-left:0;
   margin-bottom:0;
   height:867px;
