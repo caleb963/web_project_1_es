@@ -14,8 +14,10 @@
   min-height: 600px;
   max-height: 756px;
   width:100vh;
+  position:relative;
+  background-color:#f2f2f2;
   /* parameters for the header section */
-
+   }
   .logo{
     width:154px;
     height:31px;
@@ -81,7 +83,6 @@
     z-index:1;
   }
 
-}
 
 
 
@@ -103,6 +104,7 @@
   display:flex;
   justify-content:center;
   align-content:space-between;
+  margin-top:100px;
 }
 
 .two-columns{
@@ -193,14 +195,15 @@
 }
 
 .feynman{
+  margin-top:100px;
   height:790px;
   position:relative;
+  background-color: #f2f2f2;
 }
 
 .feynman__title{
   width:775px;
   display:flex;
-  margin-top:100px;
   gap:70px;
   justify-content:center;
   line-height:1.15;
@@ -231,20 +234,21 @@
 
 .feynman__image{
   position:absolute;
-  margin-left:0;
-  margin-bottom:0;
-  height:867px;
-  width:637px;
+  left:0;
+  bottom:0;
+  height:637px;
+  width:867px;
 }
 
 .kaufman {
+  margin-top:90px;
+  margin-bottom:90px;
   display:flex;
   overflow:hidden;
   background-color:black;
 }
 .section-title_theme_dark{
   display:flex;
-  margin-top:90px;
   gap:20px;
   width: 60%;
   line-height: 1.15;
@@ -274,6 +278,7 @@
   list-style: none;
   margin: 0 auto;
   justify-content:space-between;
+  
 }
 
 .table__cell_theme_dark {
@@ -306,15 +311,17 @@
   width:636px;
   position:absolute;
   margin-right:124px;
+  margin-top:90px;
 }
 
 .footer{
   min-height:350px;
   margin-top:60px;
   margin-bottom:40px;
+  background-color: black;
 }
 
-.footer__columns{
+.footer__column{
   display:flex;
   flex-basis: 751px;
 }
@@ -332,8 +339,8 @@
 }
 
 .logo__place_footer{
- height: 183px;
- width:35px;
+ height: 35px;
+ width:183px;
 }
 
 .footer__author{
@@ -343,13 +350,15 @@
   line-height:25px;
   font-size:18px;
   font-weight:normal;
+  color:white;
 }
 
 .footer__column-heading{
   row-gap:20px;
   line-height:30px;
   font-size:18px;
-  font-weight:bold
+  font-weight:bold;
+  color:white;
 }
 
 .footer__list{
@@ -357,13 +366,14 @@
   font-size:18px;
   font-weight:bold;
   padding:0;
-  list-style:none;
+  list-style:none;;
+  color:white
 }
 
 .footer__column-link{
   height:16px;
   width:16px;
-
+  color:white;
 }
 
 .footer__social-icons{
