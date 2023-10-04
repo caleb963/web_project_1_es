@@ -249,6 +249,7 @@
   display:flex;
   overflow:hidden;
   background-color:black;
+  flex-direction:column;
 }
 .section-title_theme_dark{
   width: 60%;
@@ -274,6 +275,7 @@
   margin-bottom:90px;
   margin: 0 auto;
   list-style: none;
+  justify-content:space-between;
 }
 
 .table__cell table__cell_theme_dark {
@@ -307,7 +309,7 @@
   width:636px;
   position:absolute;
   right:124px;
-  margin-bottom:0;
+  bottom:0;
 }
 
 .footer{
@@ -315,6 +317,8 @@
   margin-top:60px;
   margin-bottom:40px;
   background-color: black;
+  display:flex;
+  flex-direction:column;
 }
 
 .footer__column{
