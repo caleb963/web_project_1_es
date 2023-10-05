@@ -320,12 +320,13 @@
   padding-top:60px;
   padding-bottom:40px;
   background-color: black;
-  display:flex;
+  justify-content:space-between;
 }
 
 .footer__columns{
   display:flex;
   flex-basis: 751px;
+  justify-content: space-between;
 }
 
 .footer__column_content_copyright{
@@ -338,6 +339,7 @@
 }
 
 .footer__column_content_social{
+  display:inline-table;
 
 }
 
@@ -347,9 +349,8 @@
 }
 
 .footer__author{
-  display:flex;
-  margin-top:18px;
-  margin-bottom:18px;
+  top:18px;
+  bottom:18px;
   line-height:25px;
   font-size:18px;
   font-weight:normal;
@@ -367,9 +368,9 @@
 .footer__list{
   line-height:30px;
   font-size:18px;
-  font-weight:bold;
+  font-weight:normal;
   padding:0;
-  list-style:none;;
+  list-style:none;
   color:white
 }
 
