@@ -14,7 +14,7 @@
   min-height: 600px;
   max-height: 756px;
   position:relative;
-  display:flex;
+  align-items:center;
   overflow:hidden;
   background-color:#f2f2f2;
   /* parameters for the header section */
@@ -102,13 +102,11 @@
   display:flex;
   justify-content:center;
   align-content:space-between;
-  margin-top:100px;
+  padding-top:100px;
 }
 
 .two-columns{
     display:flex;
-    margin-bottom:100px;
-    margin-top:100px;
 
 }
 
@@ -143,6 +141,10 @@
   font-weight:bold;
 }
 
+.digits{
+  padding-top:100px;
+  padding-bottom:100px;
+}
 .section-title{
   width:60%;
   gap:20px;
@@ -200,7 +202,8 @@
   flex-direction:column;
   align-items:center;
   background-color: #f2f2f2;
-  gap:70px;
+  padding-bottom:90px;
+
 }
 
 .feynman__title{
@@ -244,8 +247,8 @@
 }
 
 .kaufman {
-  margin-top:90px;
-  margin-bottom:90px;
+  padding-top:90px;
+  padding-bottom:90px;
   display:flex;
   overflow:hidden;
   background-color:black;
@@ -307,21 +310,20 @@
 .kaufman__triangle{
   height:660px;
   width:636px;
-  position:absolute;
+  position:relative;
   right:124px;
   bottom:0;
 }
 
 .footer{
   min-height:350px;
-  margin-top:60px;
-  margin-bottom:40px;
+  padding-top:60px;
+  padding-bottom:40px;
   background-color: black;
   display:flex;
-  flex-direction:column;
 }
 
-.footer__column{
+.footer__columns{
   display:flex;
   flex-basis: 751px;
 }
