@@ -335,7 +335,7 @@
   flex-basis: 711px;
   position: relative;
   display: flex;
-  flex-direction:flex-end;
+  align-items:flex-end;
 }
 
 .footer__column_content_about{
