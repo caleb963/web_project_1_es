@@ -44,7 +44,7 @@
     width: 388px;
     position:absolute;
     z-index:10;
-    text-align:center;
+    flex-direction:column;
     left:64px;
     bottom:30px;
     line-height:25px;
@@ -142,7 +142,6 @@
 }
 
 .digits{
-  padding-top:100px;
   padding-bottom:100px;
 }
 .section-title{
@@ -272,7 +271,7 @@
   font-size:24px;
   font-weight:normal;
   color:white;
-  z-index:1;
+  z-index:2;
 }
 
 
@@ -283,7 +282,7 @@
   margin: 0 auto;
   list-style: none;
   justify-content:space-between;
-  z-index:0;
+  z-index:2;
 }
 
 .table__cell_theme_dark {
@@ -291,6 +290,7 @@
   color: white;
   row-gap:60;
   margin:auto;
+  z-index:2;
 }
 
 
@@ -313,10 +313,10 @@
 .kaufman__triangle{
   height:660px;
   width:636px;
-  display:flex;
   position:absolute;
   right:-124px;
   bottom:0;
+  z-index:1;
 
 }
 
